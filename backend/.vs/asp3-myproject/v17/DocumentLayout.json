@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\hunto\\projects\\asp3-myproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB9CE5BE-A44D-4593-ADF6-D2E2ADEE24A9}|webshop.Tests\\webshop.Tests.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\webshop.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB9CE5BE-A44D-4593-ADF6-D2E2ADEE24A9}|webshop.Tests\\webshop.Tests.csproj|solutionrelative:webshop.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|c:\\users\\hunto\\projects\\asp3-myproject\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB9CE5BE-A44D-4593-ADF6-D2E2ADEE24A9}|webshop.Tests\\webshop.Tests.csproj|c:\\users\\hunto\\projects\\asp3-myproject\\webshop.tests\\controller\\productcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB9CE5BE-A44D-4593-ADF6-D2E2ADEE24A9}|webshop.Tests\\webshop.Tests.csproj|solutionrelative:webshop.tests\\controller\\productcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,140 +19,144 @@
       "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\account\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\account\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\order\\ordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\order\\ordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\mappers\\ordersmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\mappers\\ordersmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\order\\updateordersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\order\\updateordersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\order\\createordersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\order\\createordersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\repository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\repository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\repository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\repository\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\mappers\\orderitemmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\mappers\\orderitemmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\orderitem\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\orderitem\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\extensions\\claimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\extensions\\claimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\orderitem\\updateorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\orderitem\\updateorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|c:\\users\\hunto\\projects\\asp3-myproject\\api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\helper\\productqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\helper\\productqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\orderitem\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\orderitem\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\products\\createproductsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\products\\createproductsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|c:\\users\\hunto\\projects\\asp3-myproject\\api\\migrations\\20240803114730_ordersupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\migrations\\20240803114730_ordersupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\mappers\\productsmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\mappers\\productsmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\products\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\products\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\mappers\\ordersmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\mappers\\ordersmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\mappers\\orderitemmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\mappers\\orderitemmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\helper\\productqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\helper\\productqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\extensions\\claimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\extensions\\claimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\products\\updateproductsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\products\\updateproductsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\products\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\products\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\products\\createproductsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\products\\createproductsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\orderitem\\updateorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\orderitem\\updateorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\orderitem\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\orderitem\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\orderitem\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\orderitem\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\order\\updateordersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\order\\updateordersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\order\\ordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\order\\ordersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\order\\createordersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\order\\createordersrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\account\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\account\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\account\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|c:\\users\\hunto\\projects\\asp3-myproject\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|C:\\Users\\hunto\\projects\\asp3-myproject\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6944D9-FCAA-44AD-AC45-CAD181F9B22C}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,7 +166,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 153,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,201 +174,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\webshop.Tests\\Controller\\ProductControllerTests.cs",
-              "RelativeDocumentMoniker": "webshop.Tests\\Controller\\ProductControllerTests.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\webshop.Tests\\Controller\\ProductControllerTests.cs*",
-              "RelativeToolTip": "webshop.Tests\\Controller\\ProductControllerTests.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:17:57.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\webshop.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "webshop.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\webshop.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "webshop.Tests\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:14:00.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\appsettings.json",
-              "RelativeDocumentMoniker": "api\\appsettings.json",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\appsettings.json",
-              "RelativeToolTip": "api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-21T12:21:44.36Z"
+              "Title": "ApplicationDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "api\\Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "RelativeToolTip": "api\\Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:42:47.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\Orders.cs",
-              "RelativeDocumentMoniker": "api\\Models\\Orders.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\Orders.cs",
-              "RelativeToolTip": "api\\Models\\Orders.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T11:15:45.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderItemController.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\OrderItemController.cs",
-              "RelativeDocumentMoniker": "api\\Controllers\\OrderItemController.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\OrderItemController.cs",
-              "RelativeToolTip": "api\\Controllers\\OrderItemController.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAkwHAAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:04:18.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "api\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "api\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T21:09:35.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "api\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "api\\Repository\\ProductRepository.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAIwHoAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T21:10:57.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "api\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "api\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAowCQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:02:25.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "OrdersMappers.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\OrdersMappers.cs",
-              "RelativeDocumentMoniker": "api\\Mappers\\OrdersMappers.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\OrdersMappers.cs",
-              "RelativeToolTip": "api\\Mappers\\OrdersMappers.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:13:01.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "api\\Interfaces\\IOrderRepository.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IOrderRepository.cs",
-              "RelativeToolTip": "api\\Interfaces\\IOrderRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowBAAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:40:10.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "api\\Repository\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "api\\Repository\\OrderRepository.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAuwFAAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:02:13.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UpdateOrdersRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\UpdateOrdersRequestDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Order\\UpdateOrdersRequestDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\UpdateOrdersRequestDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Order\\UpdateOrdersRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T11:16:42.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrdersDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\OrdersDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Order\\OrdersDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\OrdersDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Order\\OrdersDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T11:16:35.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateOrdersRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\CreateOrdersRequestDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Order\\CreateOrdersRequestDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\CreateOrdersRequestDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Order\\CreateOrdersRequestDto.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:14:48.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "api\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "api\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAYwBoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T17:01:36.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Account\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Account\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Account\\RegisterDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Account\\RegisterDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:05:20.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "api\\Models\\AppUser.cs",
@@ -380,131 +195,12 @@
               "RelativeToolTip": "api\\Models\\AppUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T09:58:20.068Z"
+              "WhenOpened": "2024-08-03T09:58:20.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "api\\Models\\Products.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\Products.cs",
-              "RelativeToolTip": "api\\Models\\Products.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T21:41:48.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Program.cs",
-              "RelativeDocumentMoniker": "api\\Program.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Program.cs",
-              "RelativeToolTip": "api\\Program.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAArwJYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T17:34:59.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "api\\Interfaces\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IAuthenticationService.cs",
-              "RelativeToolTip": "api\\Interfaces\\IAuthenticationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:46:13.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Service\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "api\\Service\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Service\\AuthenticationService.cs",
-              "RelativeToolTip": "api\\Service\\AuthenticationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:45:26.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\OrderItemRepository.cs",
-              "RelativeDocumentMoniker": "api\\Repository\\OrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\OrderItemRepository.cs",
-              "RelativeToolTip": "api\\Repository\\OrderItemRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:08:05.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IOrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IOrderItemRepository.cs",
-              "RelativeDocumentMoniker": "api\\Interfaces\\IOrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IOrderItemRepository.cs",
-              "RelativeToolTip": "api\\Interfaces\\IOrderItemRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:08:13.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OrderItemMappers.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\OrderItemMappers.cs",
-              "RelativeDocumentMoniker": "api\\Mappers\\OrderItemMappers.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\OrderItemMappers.cs",
-              "RelativeToolTip": "api\\Mappers\\OrderItemMappers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:12:05.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CreateOrderItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\CreateOrderItemDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\OrderItem\\CreateOrderItemDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\CreateOrderItemDto.cs",
-              "RelativeToolTip": "api\\Dtos\\OrderItem\\CreateOrderItemDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:05:59.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "api\\Data\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "api\\Data\\ApplicationDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T12:11:11.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ClaimsExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Extensions\\ClaimsExtensions.cs",
-              "RelativeDocumentMoniker": "api\\Extensions\\ClaimsExtensions.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Extensions\\ClaimsExtensions.cs",
-              "RelativeToolTip": "api\\Extensions\\ClaimsExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:28:40.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 7,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "api\\Models\\OrderItem.cs",
@@ -512,35 +208,90 @@
               "RelativeToolTip": "api\\Models\\OrderItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:06:44.466Z"
+              "WhenOpened": "2024-06-22T16:06:44.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UpdateOrderItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\UpdateOrderItemDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\OrderItem\\UpdateOrderItemDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\UpdateOrderItemDto.cs",
-              "RelativeToolTip": "api\\Dtos\\OrderItem\\UpdateOrderItemDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "DocumentIndex": 6,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "api\\Models\\Orders.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\Orders.cs",
+              "RelativeToolTip": "api\\Models\\Orders.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:05:46.732Z"
+              "WhenOpened": "2024-06-21T11:15:45.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\ITokenService.cs",
-              "RelativeDocumentMoniker": "api\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\ITokenService.cs",
-              "RelativeToolTip": "api\\Interfaces\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "DocumentIndex": 5,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "api\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Models\\Products.cs",
+              "RelativeToolTip": "api\\Models\\Products.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwA8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T22:28:24.358Z"
+              "WhenOpened": "2024-06-10T21:41:48.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 4,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "api\\Repository\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\OrderItemRepository.cs",
+              "RelativeToolTip": "api\\Repository\\OrderItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:08:05.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "api\\Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "api\\Repository\\OrderRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowFAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T16:02:13.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "api\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "api\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T21:10:57.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "api\\Service\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Service\\AuthenticationService.cs",
+              "RelativeToolTip": "api\\Service\\AuthenticationService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:45:26.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Service\\TokenService.cs",
               "RelativeDocumentMoniker": "api\\Service\\TokenService.cs",
@@ -548,7 +299,294 @@
               "RelativeToolTip": "api\\Service\\TokenService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T22:30:31.7Z"
+              "WhenOpened": "2024-06-21T22:30:31.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240803114730_ordersupdated.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Migrations\\20240803114730_ordersupdated.cs",
+              "RelativeDocumentMoniker": "api\\Migrations\\20240803114730_ordersupdated.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Migrations\\20240803114730_ordersupdated.cs",
+              "RelativeToolTip": "api\\Migrations\\20240803114730_ordersupdated.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:42:44.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "api\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "api\\Interfaces\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T22:28:24.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "api\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "api\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T21:09:35.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "api\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "api\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA5wBAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T22:40:10.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IOrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "api\\Interfaces\\IOrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IOrderItemRepository.cs",
+              "RelativeToolTip": "api\\Interfaces\\IOrderItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:08:13.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "api\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "api\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:46:13.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductQueryObject.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Helper\\ProductQueryObject.cs",
+              "RelativeDocumentMoniker": "api\\Helper\\ProductQueryObject.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Helper\\ProductQueryObject.cs",
+              "RelativeToolTip": "api\\Helper\\ProductQueryObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:33:40.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClaimsExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Extensions\\ClaimsExtensions.cs",
+              "RelativeDocumentMoniker": "api\\Extensions\\ClaimsExtensions.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Extensions\\ClaimsExtensions.cs",
+              "RelativeToolTip": "api\\Extensions\\ClaimsExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T22:28:40.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderItemMappers.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\OrderItemMappers.cs",
+              "RelativeDocumentMoniker": "api\\Mappers\\OrderItemMappers.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\OrderItemMappers.cs",
+              "RelativeToolTip": "api\\Mappers\\OrderItemMappers.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:12:05.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrdersMappers.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\OrdersMappers.cs",
+              "RelativeDocumentMoniker": "api\\Mappers\\OrdersMappers.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\OrdersMappers.cs",
+              "RelativeToolTip": "api\\Mappers\\OrdersMappers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T16:13:01.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsMappers.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\ProductsMappers.cs",
+              "RelativeDocumentMoniker": "api\\Mappers\\ProductsMappers.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\ProductsMappers.cs",
+              "RelativeToolTip": "api\\Mappers\\ProductsMappers.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T21:42:27.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateProductsRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\UpdateProductsRequestDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Products\\UpdateProductsRequestDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\UpdateProductsRequestDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Products\\UpdateProductsRequestDto.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T17:44:57.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductsDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\ProductsDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Products\\ProductsDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\ProductsDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Products\\ProductsDto.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T18:23:27.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateProductsRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\CreateProductsRequestDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Products\\CreateProductsRequestDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\CreateProductsRequestDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Products\\CreateProductsRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:17:09.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateOrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\UpdateOrderItemDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\OrderItem\\UpdateOrderItemDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\UpdateOrderItemDto.cs",
+              "RelativeToolTip": "api\\Dtos\\OrderItem\\UpdateOrderItemDto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:05:46.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\OrderItem\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\OrderItemDto.cs",
+              "RelativeToolTip": "api\\Dtos\\OrderItem\\OrderItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:06:44.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateOrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\CreateOrderItemDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\OrderItem\\CreateOrderItemDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\CreateOrderItemDto.cs",
+              "RelativeToolTip": "api\\Dtos\\OrderItem\\CreateOrderItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:05:59.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateOrdersRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\UpdateOrdersRequestDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Order\\UpdateOrdersRequestDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\UpdateOrdersRequestDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Order\\UpdateOrdersRequestDto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA0wA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T11:16:42.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrdersDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\OrdersDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Order\\OrdersDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\OrdersDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Order\\OrdersDto.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T11:16:35.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateOrdersRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\CreateOrdersRequestDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Order\\CreateOrdersRequestDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Order\\CreateOrdersRequestDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Order\\CreateOrdersRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T19:14:48.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Account\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Account\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Account\\RegisterDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Account\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:05:20.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NewUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Account\\NewUserDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Account\\NewUserDto.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Account\\NewUserDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Account\\NewUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T22:46:42.017Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -560,110 +598,85 @@
               "RelativeToolTip": "api\\Dtos\\Account\\LoginDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T22:54:40.454Z"
+              "WhenOpened": "2024-06-21T22:54:40.454Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "NewUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Account\\NewUserDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Account\\NewUserDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Account\\NewUserDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Account\\NewUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "api\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "api\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T22:46:42.017Z"
+              "WhenOpened": "2024-06-21T12:11:11.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "ProductQueryObject.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Helper\\ProductQueryObject.cs",
-              "RelativeDocumentMoniker": "api\\Helper\\ProductQueryObject.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Helper\\ProductQueryObject.cs",
-              "RelativeToolTip": "api\\Helper\\ProductQueryObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T20:33:40.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "OrderItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\OrderItemDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\OrderItem\\OrderItemDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\OrderItem\\OrderItemDto.cs",
-              "RelativeToolTip": "api\\Dtos\\OrderItem\\OrderItemDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:06:44.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CreateProductsRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\CreateProductsRequestDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Products\\CreateProductsRequestDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\CreateProductsRequestDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Products\\CreateProductsRequestDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwB4AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:17:09.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ProductsDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\ProductsDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Products\\ProductsDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\ProductsDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Products\\ProductsDto.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:23:27.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ProductsMappers.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\ProductsMappers.cs",
-              "RelativeDocumentMoniker": "api\\Mappers\\ProductsMappers.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Mappers\\ProductsMappers.cs",
-              "RelativeToolTip": "api\\Mappers\\ProductsMappers.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T21:42:27.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UpdateProductsRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\UpdateProductsRequestDto.cs",
-              "RelativeDocumentMoniker": "api\\Dtos\\Products\\UpdateProductsRequestDto.cs",
-              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Dtos\\Products\\UpdateProductsRequestDto.cs",
-              "RelativeToolTip": "api\\Dtos\\Products\\UpdateProductsRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T17:44:57.73Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 195,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "api\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "api\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwDYAAAAuAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T11:13:07.515Z",
+              "WhenOpened": "2024-08-09T12:41:28.761Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderItemController.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\OrderItemController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\OrderItemController.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\OrderItemController.cs",
+              "RelativeToolTip": "api\\Controllers\\OrderItemController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:04:18.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "api\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:02:25.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "api\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "api\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:01:36.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Program.cs",
+              "RelativeDocumentMoniker": "api\\Program.cs",
+              "ToolTip": "C:\\Users\\hunto\\projects\\asp3-myproject\\api\\Program.cs",
+              "RelativeToolTip": "api\\Program.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAArwJYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T17:34:59.051Z"
             }
           ]
         }

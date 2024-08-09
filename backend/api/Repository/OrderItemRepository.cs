@@ -70,9 +70,9 @@ namespace api.Repository
             return orderItem;
         }
 
-        public Task<List<Products>> GetOrderProducts() //Orders orders
+        public Task<List<Products>> GetOrderProducts() 
         {
-            return _context.OrderItems //.Where(x => x.OrderId == orders.Id)
+            return _context.OrderItems 
                 .Select( product => new Products
                 {
                     

@@ -95,7 +95,6 @@ namespace api.Controllers
             }
 
 
-
             return Ok(new NewUserDto
             {
                 UserName = user.UserName,

@@ -25,23 +25,10 @@ namespace api.Controllers
             
         }
 
-        // GetAll without query
-        //[HttpGet]
-        //public async  Task<IActionResult> GetAll()
-        //{
-        //    var products = await _context.Products.Include(x => x.OrderItems).ToListAsync();
-        //    
-
-        //    var productsDto = products.Select(p => p.ProductToDto());
-
-        //    return Ok(products);
-
-        //}
-
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] ProductQueryObject query)
         {
-            //var products = await _context.Products.Include(x => x.OrderItems).ToListAsync();
+
             var products = await _productRepository.GetAllAsync(query);
             
 
@@ -56,7 +43,7 @@ namespace api.Controllers
         {
 
             var product = await _context.Products.Include(x => x.OrderItems).FirstOrDefaultAsync(x => x.Id == id);
-            //var product = await _productRepository.GetByIdAsync(id);
+
             if (product == null)
             {
                 return NotFound();

@@ -35,10 +35,6 @@ namespace api.Controllers
             var orderItemsDto = orderItems.Select(o => o.OrderItemToDto());
             return Ok(orderItemsDto);
 
-            //var userName = User.GetUserName();
-            //var appUser = await _userManager.FindByNameAsync(userName);
-            //var orderProducts = await _orderItemRepository.GetOrderProducts();
-            //return Ok(orderProducts);
 
         }
         [HttpGet("{id:int}")]
@@ -49,7 +45,7 @@ namespace api.Controllers
             {
                 return NotFound();
             }
-            return Ok(orderItem); //.OrderItemToDto()
+            return Ok(orderItem); 
         }
 
 
@@ -57,24 +53,6 @@ namespace api.Controllers
         [HttpPost("{orderId:int}")]
         public async Task<IActionResult> Create( [FromRoute] int orderId, CreateOrderItemDto orderItemDto )
         {
-            //if (!await _productRepository.HasProductAsync(orderItemDto.productId))
-            //{
-            //    return BadRequest("Product not found");
-            //}
-            //if (!await _orderRepository.HasOrdersAsync(orderId))
-            //{
-            //    return BadRequest("Order not found");
-            //}
-
-            //var price = await _productRepository.GetPriceAsync(orderItemDto.productId);
-
-            //var orderItem = orderItemDto.ToOrderItemFromCreate(orderItemDto.productId, orderId, price);
-
-            //await _orderRepository.UpdateTotalPriceAsync(orderId, price * orderItemDto.Quantity);
-
-            //await _orderItemRepository.CreateAsync(orderItem);
-
-            //return CreatedAtAction(nameof(GetById), new { id = orderItem.Id }, orderItem.OrderItemToDto());
 
 
             var order = await _orderRepository.GetByIdAsync(orderId);

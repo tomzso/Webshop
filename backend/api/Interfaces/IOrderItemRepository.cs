@@ -10,8 +10,8 @@ namespace api.Interfaces
         Task<OrderItem?> UpdateAsync(int id, OrderItem orderItem);
         Task<OrderItem?> DeleteAsync(int id);
 
-        Task<List<Products>> GetOrderProducts(); //Orders orders
-        //Task<decimal> GetPriceAsync(int );
+        Task<List<Products>> GetOrderProducts();
+
 
     }
 }
