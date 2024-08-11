@@ -5,13 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace api.Data
 {
-    public class ApplicationDBContext: IdentityDbContext<AppUser>
+    public class ApplicationDBContext : IdentityDbContext<AppUser>
     {
-        public ApplicationDBContext(DbContextOptions dbContextOptions)
-            :base(dbContextOptions)
-        {
-            
-        }
+        public ApplicationDBContext(DbContextOptions dbContextOptions) : base(dbContextOptions) { }
 
         public DbSet<Models.Orders> Orders { get; set; }
         public DbSet<Models.Products> Products { get; set; }
@@ -21,17 +17,11 @@ namespace api.Data
         {
             base.OnModelCreating(builder);
 
-           
-
-            // Define composite key
             builder.Entity<OrderItem>(entity =>
             {
                 entity.HasKey(e => new { e.OrderId, e.ProductId });
-
-                // If there is an Id column and it's an identity column
                 entity.Property(e => e.Id).ValueGeneratedOnAdd();
             });
-
 
             builder.Entity<OrderItem>()
                 .HasOne(p => p.Product)
@@ -43,16 +33,12 @@ namespace api.Data
                 .WithMany(p => p.OrderItems)
                 .HasForeignKey(p => p.OrderId);
 
-
-
-
-            List<IdentityRole> roles = new List<IdentityRole>
+            var roles = new List<IdentityRole>
             {
                 new IdentityRole { Name = "Admin", NormalizedName = "ADMIN" },
                 new IdentityRole { Name = "User", NormalizedName = "USER" }
             };
             builder.Entity<IdentityRole>().HasData(roles);
         }
-
     }
 }

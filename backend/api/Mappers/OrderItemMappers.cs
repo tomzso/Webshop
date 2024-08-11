@@ -13,8 +13,7 @@ namespace api.Mappers
                 ProductId = orderItem.ProductId,
                 OrderId = orderItem.OrderId,
                 Quantity = orderItem.Quantity,
-                Price = orderItem.Price,
-                
+                Price = orderItem.Price
             };
         }
 
@@ -22,7 +21,6 @@ namespace api.Mappers
         {
             return new OrderItem
             {
-
                 ProductId = productId,
                 OrderId = orderId,
                 Quantity = orderItem.Quantity,
@@ -30,12 +28,10 @@ namespace api.Mappers
             };
         }
 
-
         public static OrderItem ToOrderItemFromUpdate(this UpdateOrderItemDto orderItem)
         {
             return new OrderItem
             {
-
                 ProductId = orderItem.ProductId,
                 OrderId = orderItem.OrderId,
                 Quantity = orderItem.Quantity,

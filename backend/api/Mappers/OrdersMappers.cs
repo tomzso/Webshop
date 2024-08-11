@@ -20,11 +20,9 @@ namespace api.Mappers
                 PhoneNumber = order.PhoneNumber,
                 PaymentMethod = order.PaymentMethod,
                 OrderItems = order.OrderItems.Select(x => x.OrderItemToDto()).ToList()
-                
-
-
             };
         }
+
         public static Orders DtoToOrder(this CreateOrdersRequestDto orderDto, string userId)
         {
             return new Orders
@@ -40,6 +38,5 @@ namespace api.Mappers
                 PaymentMethod = orderDto.PaymentMethod
             };
         }
-       
     }
 }

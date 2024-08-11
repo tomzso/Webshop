@@ -9,9 +9,6 @@ namespace api.Interfaces
         Task<OrderItem?> CreateAsync(OrderItem orderItem);
         Task<OrderItem?> UpdateAsync(int id, OrderItem orderItem);
         Task<OrderItem?> DeleteAsync(int id);
-
         Task<List<Products>> GetOrderProducts();
-
-
     }
 }

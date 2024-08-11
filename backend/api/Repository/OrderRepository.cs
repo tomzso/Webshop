@@ -10,10 +10,12 @@ namespace api.Repository
     public class OrderRepository : IOrderRepository
     {
         private readonly ApplicationDBContext _context;
+
         public OrderRepository(ApplicationDBContext context)
         {
             _context = context;
         }
+
         public async Task<Orders?> CreateAsync(Orders order)
         {
             await _context.Orders.AddAsync(order);
@@ -31,12 +33,11 @@ namespace api.Repository
             _context.Orders.Remove(order);
             await _context.SaveChangesAsync();
             return order;
-
         }
 
         public async Task<List<Orders>> GetAllAsync()
         {
-           return await _context.Orders.ToListAsync();
+            return await _context.Orders.ToListAsync();
         }
 
         public async Task<Orders?> GetByIdAsync(int id)
@@ -57,7 +58,6 @@ namespace api.Repository
                 return null;
             }
 
-
             order.UserId = orderDto.UserId;
             order.OrderDate = orderDto.OrderDate;
             order.ShippingAddress = orderDto.ShippingAddress;
@@ -67,9 +67,11 @@ namespace api.Repository
             order.PaymentMethod = orderDto.PaymentMethod;
             order.Status = orderDto.Status;
             order.TotalAmount = orderDto.TotalAmount;
+
             await _context.SaveChangesAsync();
             return order;
         }
+
         public async Task<Orders> UpdateTotalPriceAsync(int id, decimal price)
         {
             var order = await _context.Orders.FirstOrDefaultAsync(x => x.Id == id);
@@ -82,9 +84,9 @@ namespace api.Repository
             await _context.SaveChangesAsync();
             return order;
         }
+
         public async Task<List<OrderItem>> DeleteOrderItems(List<OrderItem> orderItems)
         {
-
             _context.OrderItems.RemoveRange(orderItems);
             await _context.SaveChangesAsync();
             return orderItems;

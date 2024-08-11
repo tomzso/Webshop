@@ -1,5 +1,4 @@
 ﻿using api.Dtos;
-
 using api.Models;
 
 namespace api.Mappers
@@ -33,6 +32,5 @@ namespace api.Mappers
                 ImageUrl = productDto.ImageUrl
             };
         }
-
     }
 }

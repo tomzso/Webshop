@@ -5,7 +5,6 @@ namespace api.Helper
     public class ProductQueryObject
     {
         public string? Name { get; set; } = null;
-
         public decimal? Price { get; set; } = null;
         public int? StockQuantity { get; set; } = null;
         public string? Category { get; set; } = null;
@@ -13,6 +12,5 @@ namespace api.Helper
         public bool IsAscending { get; set; } = true;
         public int Page { get; set; } = 1;
         public int PageSize { get; set; } = 10;
-
     }
 }

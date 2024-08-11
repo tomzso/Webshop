@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace api.Repository
 {
-    public class OrderItemRepository: IOrderItemRepository
+    public class OrderItemRepository : IOrderItemRepository
     {
         private readonly ApplicationDBContext _context;
 
@@ -24,14 +24,11 @@ namespace api.Repository
         public async Task<List<OrderItem>> GetAllAsync()
         {
             return await _context.OrderItems.ToListAsync();
-
-
         }
 
         public async Task<OrderItem?> GetByIdAsync(int id)
         {
             return await _context.OrderItems.FindAsync(id);
-            
         }
 
         public async Task<OrderItem?> UpdateAsync(int id, OrderItem orderItem)
@@ -49,7 +46,6 @@ namespace api.Repository
                 return null;
             }
 
-
             orderItemToUpdate.ProductId = orderItem.ProductId;
             orderItemToUpdate.Quantity = orderItem.Quantity;
             orderItemToUpdate.OrderId = orderItem.OrderId;
@@ -58,6 +54,7 @@ namespace api.Repository
             await _context.SaveChangesAsync();
             return orderItemToUpdate;
         }
+
         public async Task<OrderItem?> DeleteAsync(int id)
         {
             var orderItem = await _context.OrderItems.FirstOrDefaultAsync(x => x.Id == id);
@@ -70,12 +67,11 @@ namespace api.Repository
             return orderItem;
         }
 
-        public Task<List<Products>> GetOrderProducts() 
+        public Task<List<Products>> GetOrderProducts()
         {
-            return _context.OrderItems 
-                .Select( product => new Products
+            return _context.OrderItems
+                .Select(product => new Products
                 {
-                    
                     Id = product.ProductId,
                     Name = product.Product.Name,
                     Description = product.Product.Description,
@@ -83,10 +79,8 @@ namespace api.Repository
                     StockQuantity = product.Product.StockQuantity,
                     Category = product.Product.Category,
                     ImageUrl = product.Product.ImageUrl
-
-                }).ToListAsync();
+                })
+                .ToListAsync();
         }
-
-
     }
 }
