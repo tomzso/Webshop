@@ -1,103 +1,92 @@
-import React, {createContext, useState} from "react";
-// import { allProducts, products} from '../services/apiService';
+import React, { createContext, useState } from "react";
 
 export const ShopContext = createContext(null);
 
-const getDefaultCart =() => {
-    let cart;
-    return cart;
-}
-
+const getDefaultCart = () => {
+  // Initialize cart as an empty object
+  return {};
+};
 
 export const ShopContextProvider = (props) => {
-    const [productList, setProductList] = useState([]);
-    const [allProductList, setAllProductList] = useState([]);
-    const [searchName, setSearchName] = useState('');
-    const [MAX_PRODUCTS_ID, SET_MAX_PRODUCTS_ID] = useState(1000);
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [shippingAddress, setShippingAddress] = useState("");
-    const [billingAddress, setBillingAddress] = useState("");
+  const [productList, setProductList] = useState([]);
+  const [allProductList, setAllProductList] = useState([]);
+  const [searchName, setSearchName] = useState('');
+  const [cartItems, setCartItems] = useState(getDefaultCart());
+  const [pageNumber, setPageNumber] = useState(1);
 
-    // Additional user information
-    const [phoneNumber, setPhoneNumber] = useState("");
-    const [paymentMethod, setPaymentMethod] = useState('creditCard'); // Default payment method
-    const [emailCheckout, setEmailCheckout] = useState("");
-  
-    const handleNameChange = (e) => setName(e.target.value);
-    const handleEmailChange = (e) => setEmail(e.target.value);
-    const handlePasswordChange = (e) => setPassword(e.target.value);
-    const handleShippingAddressChange = (e) => setShippingAddress(e);
-    const handleBillingAddressChange = (e) => setBillingAddress(e);
-    const handlePhoneNumberChange = (e) => setPhoneNumber(e);
-    const handlePaymentMethodChange = (e) => setPaymentMethod(e);
-    const handleEmailCheckoutChange = (e) => setEmailCheckout(e);
+  // User information
+  const [userName, setUserName] = useState('');
+  const [userId, setUserId] = useState('');
+  const [token, setToken] = useState('');
 
+  // Checkout information
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [shippingAddress, setShippingAddress] = useState('');
+  const [billingAddress, setBillingAddress] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [paymentMethod, setPaymentMethod] = useState('creditCard'); // Default payment method
+  const [emailCheckout, setEmailCheckout] = useState('');
 
-    const [userName, setUserName] = useState('');
-    const [userId, setUserId] = useState('');
-    const [token, setToken] = useState('');
+  const handleInputChange = (setter) => (e) => setter(e);
+  const handleSigninInputChange = (setter) => (e) => setter(e.target.value);
 
-
-
-    const [cartItems, setCartItems] = useState(getDefaultCart());
-
-
-    const getTotalCartAmount = () => {
-        let total = 0;
-        for (const item in cartItems) {
-            if (cartItems[item] > 0) {
-                let itemInfo = allProductList.find((product) => product.id == item);
-                console.log('itemInfo:', itemInfo);
-                total += itemInfo.price * cartItems[item];
-            }
+  const getTotalCartAmount = () => {
+    return Object.keys(cartItems).reduce((total, itemId) => {
+      const itemCount = cartItems[itemId];
+      if (itemCount > 0) {
+        const itemInfo = allProductList.find((product) => product.id === Number(itemId));
+        if (itemInfo) {
+          total += itemInfo.price * itemCount;
         }
-        return total;
-    }
+      }
+      return total;
+    }, 0);
+  };
 
-    const addToCart = (id) => {
-        setCartItems((prev) => ({...prev, [id]: prev[id] + 1}));
-        
-    }
-    const removeFromCart = (id) => {
-        setCartItems((prev) => ({...prev, [id]: prev[id] - 1}));
-    }
+  const addToCart = (id) => {
+    setCartItems((prev) => ({ ...prev, [id]: (prev[id] || 0) + 1 }));
+  };
 
+  const removeFromCart = (id) => {
+    setCartItems((prev) => ({ ...prev, [id]: Math.max((prev[id] || 0) - 1, 0) }));
+  };
 
-    const updateCartItemCount = (count, id ) => {
-        setCartItems((prev) => ({...prev, [id]: count}));
-    }
+  const updateCartItemCount = (count, id) => {
+    setCartItems((prev) => ({ ...prev, [id]: count }));
+  };
 
+  const contextValue = {
+    pageNumber, setPageNumber,
+    setCartItems,
+    productList, setProductList,
+    allProductList, setAllProductList,
+    searchName, setSearchName,
+    cartItems,
+    addToCart,
+    removeFromCart,
+    updateCartItemCount,
+    getTotalCartAmount,
+    name, email, password,
+    handleNameChange: handleSigninInputChange(setName),
+    handleEmailChange: handleSigninInputChange(setEmail),
+    handlePasswordChange: handleSigninInputChange(setPassword),
+    shippingAddress, billingAddress,
+    handleShippingAddressChange: handleInputChange(setShippingAddress),
+    handleBillingAddressChange: handleInputChange(setBillingAddress),
+    phoneNumber,
+    handlePhoneNumberChange: handleInputChange(setPhoneNumber),
+    paymentMethod, handlePaymentMethodChange: handleInputChange(setPaymentMethod),
+    emailCheckout, handleEmailCheckoutChange: handleInputChange(setEmailCheckout),
+    userName, setUserName, token, setToken, userId, setUserId
+  };
 
-    const contextValue = {
-        productList, setProductList,
-        allProductList, setAllProductList,
-        searchName, setSearchName,
-        MAX_PRODUCTS_ID,
-        cartItems,
-        addToCart,
-        removeFromCart,
-        setCartItems,
-        updateCartItemCount,
-        getTotalCartAmount,
-        phoneNumber,
-        handlePhoneNumberChange,
-        paymentMethod,
-        handlePaymentMethodChange,
-        emailCheckout,
-        handleEmailCheckoutChange,
-        name, email, password, handleNameChange, handleEmailChange, handlePasswordChange, shippingAddress, billingAddress, handleShippingAddressChange, handleBillingAddressChange,
-        userName, setUserName, token, setToken, userId, setUserId
-    };
+  console.log('cartItems', cartItems);
 
-
-
-
-    console.log('cartItems', cartItems);
-    return (
-        <ShopContext.Provider value={contextValue}>
-            {props.children}
-        </ShopContext.Provider>
-    )
-}
+  return (
+    <ShopContext.Provider value={contextValue}>
+      {props.children}
+    </ShopContext.Provider>
+  );
+};

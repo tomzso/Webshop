@@ -1,0 +1,81 @@
+.settings-container {
+    padding: 20px;
+    max-width: 600px; /* Add a max width for better alignment */
+    margin: auto;
+    background: #fff; /* Light background for better readability */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increase gap between form elements */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold; /* Bold labels for better readability */
+}
+
+.form-group input {
+    padding: 10px; /* More padding for better touch target */
+    font-size: 16px;
+    border: 1px solid #ddd; /* Light border for input fields */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box;
+}
+
+.payment-method-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space out payment options */
+}
+
+.payment-method-group label {
+    display: flex;
+    align-items: center;
+    font-size: 16px; /* Consistent font size */
+    margin-bottom: 8px; /* Space between options */
+}
+
+.payment-method-group input[type="radio"] {
+    margin-right: 10px; /* Space between radio button and label */
+}
+
+.save-button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+
+.payment-method-title {
+    font-weight: bold; /* Make the title bold */
+    font-size: 16px; /* Ensure the font size matches the rest */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.successDialog {
+    background-color: #28a745;
+  }
+  
+  .failureDialog {
+    background-color: #dc3545;
+  }

@@ -1,0 +1,132 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  position: relative; /* Ensures the container is positioned relative to the viewport */
+}
+
+.container {
+  position: absolute;
+  top: 150px; /* Adjust this value to move the container down from the top of the viewport */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header .text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header .underline {
+  width: 60px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 10px auto;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.forgot-password span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.submit {
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit.gray {
+  background-color: #d6dadd;
+  color: #333;
+}
+
+.next {
+  display: block;
+  width: 90%;
+  padding: 15px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin: 10px auto; /* Center horizontally and add margin-top */
+}
+
+.next:hover {
+  background-color: #0056b3;
+}
+
+.successDialog,
+.failureDialog {
+  position: absolute;
+  top: 20px; /* Distance from the top of the container */
+  right: 20px; /* Distance from the right edge of the container */
+  padding: 15px;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  z-index: 10; /* Ensures dialogs are on top */
+}
+
+.successDialog {
+  background-color: #28a745;
+}
+
+.failureDialog {
+  background-color: #dc3545;
+}
